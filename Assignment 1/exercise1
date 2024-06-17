@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMILE FOUNDATION</title>
+    <style type="text/css">
+        {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+.menubar {
+    background-color: #444;
+    padding: 10px;
+}
+
+.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menubar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: #eee;
+    padding: 20px;
+    width:1464px;
+    float: left;
+}
+
+main {
+    float: left;
+    padding: 20px;
+}
+
+.box {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    width:1464px;
+    padding: 20px;
+    mask-image: hover;
+
+}
+
+.box h2 {
+    margin-bottom: 10px;
+    width:1464px;
+}
+
+.box img {
+    max-width: 100%;
+    height:300PX;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.column {
+  float: left;
+  padding: 5px;
+  width: 100%;
+  align-items: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#button{
+    margin-left: 20px;
+    
+
+}
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="C:\Users\Abha Randive\Desktop\Ngo's Websitte\assets\images\Smile4.jpg" alt="Your Logo">
+        </div>
+            <h1>SMILE FOUNDATION</h1>
+        </div>
+    </header>
+
+    <nav class="menubar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">campaigns</a></li>
+            <li><a href="#">Get Involved</a></li>
+        </ul>
+    </nav>
+    <aside class="sidebar">
+    
+        <h3>Sidebar</h3>
+        <a>NGO work saves lives. If you want to make a difference in the world, working at an NGO is one of the most effective ways to do that. Many NGOs focus on life-saving humanitarian aid like medical care, food.</a>
+        <a href="https://donate.smilefoundationindia.org/?gad_source=1&gclid=CjwKCAjwmrqzBhAoEiwAXVpgotNDb8p0yqLx49-aU38smgS-shKnd6CUrRB4MeQMpAAqxFHMCMMyyhoCSNAQAvD_BwE">Know more about Smile Foundation</a>
+    </aside>
+<div id="button">
+<button>Donate</button>
+<button>Login
+</button>
+
+</div>
+    <main>
+
+        <div class="box">
+            <h2>HELP</h2>
+            <img src="C:\Users\Abha Randive\Desktop\Hashedbit innovations\Assignment 1\images\misin.jpg" alt="Image 1">
+                        <img src="C:\Users\Abha Randive\Desktop\Hashedbit innovations\Assignment 1\images\vision.jpg" alt="Image 2">
+                        <img src="C:\Users\Abha Randive\Desktop\Hashedbit innovations\Assignment 1\images\events\image_06.jpg" height="200px">
+
+
+            <h1 class="slider-title">Donate A Little,Change a lot</h1>
+                <p class="slider-text hidden-xs">Together,We Can Make a Diffrence</p>
+        </div>
+        
+        <div class="box">
+            <h2></h2>
+            <img src="C:\Users\Abha Randive\Desktop\Ngo's Websitte\assets\images\slider\slider-1.jpg"alt="Image 3">
+            <h1 class="slider-title">One Man,Many Efforts</h1>
+              <p class="slider-text hidden-xs">You Have the power to bring Happiness</p>
+                               
+        </div>
+       
+          
+    
+
+    </main>
+
+
+    <footer>
+<h1>Our Mission</h1>
+<p>As stewards of our NGO, our mission is to champion social justice, empower marginalized communities, and foster sustainable development worldwide. Through innovative programs and grassroots initiatives, we strive to address pressing global challenges such as poverty, inequality, and environmental degradation. Our commitment to integrity, inclusivity, and transparency guides every facet of our work, ensuring that we make a tangible, lasting impact on the lives of those we serve. By collaborating with local partners and leveraging the collective strength of our global network, we aspire to create a more equitable and harmonious world where every individual has the opportunity to thrive and fulfill their potential.</p>
+    </footer>
+
+</body>
+</html>
